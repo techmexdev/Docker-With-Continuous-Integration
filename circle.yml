@@ -1,5 +1,4 @@
-##### Chapter 5 ##### 
-### btree is the best
+##### Chapter 5 #####
 deployment:
   dockerhub:
     branch: master
@@ -7,5 +6,5 @@ deployment:
       - $DOCKER_HUB_TRIGGER
 
 test:
-  override:   
-    - mocha 
+  override:
+    - mocha
